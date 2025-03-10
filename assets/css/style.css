@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap");
+
+* {
+  font-family: "Agdasima", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  display: flex;
+  background-color: #9b9b9b;
+  justify-content: center;
+}
+
+p {
+  color: #333333;
+}
+
+body {
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 1160px;
+}
+
+.profileparagraph > strong {
+  font-weight: normal;
+}
+
+.profileparagraph > em {
+  font-weight: normal;
+}
+
+strong,
+em {
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* HEADER début */
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #5e113e;
+  gap: 20%;
+}
+
+.personaldata > h2 {
+  box-sizing: content-box;
+  color: white;
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.lefticons,
+.righticons {
+  font-size: 1em;
+  display: inline-block;
+}
+
+.portrait {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: solid 3px white;
+}
+
+figure {
+  box-sizing: border-box;
+  width: 12%;
+  min-width: 100px;
+  height: 12%;
+  align-self: center;
+}
+
+h1 {
+  color: white;
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 3px;
+  margin-top: 2px;
+}
+
+.personaldata {
+  padding: 20px;
+}
+.enveloppe > a {
+  text-decoration: none;
+  color: white;
+}
+
+.maison > a {
+  text-decoration: none;
+  color: white;
+}
+
+.telephone > a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact {
+  color: white;
+}
+
+.enveloppe {
+  list-style-image: url(../images/enveloppe.png);
+}
+
+.maison {
+  list-style-image: url(../images/maison.png);
+}
+
+.telephone {
+  list-style-image: url(../images/tel.png);
+}
+
+.voiture {
+  list-style-image: url(../images/voiture.png);
+}
+/* HEADER fin */
+
+/* MAIN début */
+main {
+  display: flex;
+}
+
+h2 {
+  color: #5e113e;
+}
+
+.left,
+.right {
+  padding: 3em;
+}
+
+.left {
+  width: 35%;
+  background-color: #e3e3e3;
+}
+
+.right {
+  width: 65%;
+  background-color: rgb(202, 202, 202);
+}
+
+.star {
+  width: 1em;
+  height: 1em;
+  float: right;
+}
+
+.square {
+  list-style: none;
+}
+
+.square > li::before {
+  content: "■";
+  color: #5e113e;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  margin-bottom: 5px;
+}
+
+.profileparagraph {
+  text-indent: 2em;
+}
+
+.fonction {
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 1px;
+}
+
+.place {
+  font-style: italic;
+  margin-top: 1px;
+}
+
+.date {
+  float: right;
+  color: #5e113e;
+}
+
+.comp {
+  text-align: left;
+  font-weight: 700;
+}
+
+.ratio {
+  display: flex;
+  align-content: center;
+  justify-content: right;
+  height: 3px;
+}
+
+.level,
+.lang {
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.level {
+  float: right;
+}
+
+.lang {
+  font-weight: 700;
+}
+/* MAIN fin */
+
+/* FOOTER début */
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #5e113e;
+  padding: 20px;
+}
+
+.maj {
+  justify-items: center;
+}
+
+#footermaj {
+  color: white;
+}
+
+.footericon {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.icone {
+  width: 2em;
+  height: 2em;
+}
+/* FOOTER fin */
