@@ -213,6 +213,12 @@ h2 {
 .lang {
   font-weight: 700;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
 /* MAIN fin */
 
 /* FOOTER début */
