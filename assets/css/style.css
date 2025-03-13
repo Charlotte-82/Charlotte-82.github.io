@@ -77,12 +77,11 @@ figure {
   align-self: center;
 }
 
-h1 {
+.name {
+  font-size: 3em;
   color: white;
-  font-size: 2.5em;
   text-align: center;
-  margin-bottom: 3px;
-  margin-top: 2px;
+  font-weight: 900;
 }
 
 .personaldata {
@@ -125,6 +124,15 @@ h1 {
 /* HEADER fin */
 
 /* MAIN début */
+
+h1 {
+  color: lightgray;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 main {
   display: flex;
 }
@@ -200,6 +208,7 @@ h2 {
 }
 
 .level,
+.level1,
 .lang {
   display: inline-block;
   margin-bottom: 5px;
@@ -208,6 +217,11 @@ h2 {
 
 .level {
   float: right;
+}
+
+.level1 {
+  float: right;
+  font-weight: 700;
 }
 
 .lang {
