@@ -9,6 +9,11 @@ figure:hover {
   cursor: zoom-in;
 }
 
+.portrait:hover {
+  opacity: 0.8;
+  cursor: zoom-in;
+}
+
 .icone:hover {
   opacity: 0.5;
 }
