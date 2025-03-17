@@ -1,65 +1,73 @@
 @media only screen and (max-width: 770px) {
-    html {
-        width: 100%;
-    }
-    
-    header {
-        display: flex;
-        flex-direction: column;
-    }
+  html {
+    width: 100%;
+  }
 
-    h1 {
-        font-size: large;
-    }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .lefticons, .righticons {
-        font-size: smaller;
-    }
+  h1 {
+    font-size: large;
+  }
 
-    .personaldata {
-        justify-items: center;
-    }
+  .lefticons,
+  .righticons {
+    font-size: smaller;
+  }
 
-    h2 {
-        font-size: small;
-    }
+  .personaldata {
+    justify-items: center;
+  }
 
-    p, li {
-        font-size: smaller;
-    }
+  h2,
+  .name {
+    font-size: small;
+  }
 
-    .left, .right {
-        padding: 1em;
-    }
+  p,
+  li {
+    font-size: smaller;
+  }
 
-    .star {
-        width:7px;
-        height: 7px;
-    }
+  .left,
+  .right {
+    padding: 1em;
+  }
 
-    .comp, .lang, .level {
-        font-size: xx-small;
-    }
+  .star {
+    width: 7px;
+    height: 7px;
+  }
 
-    .square {
-        font-size: x-small;
-        margin-left: -2.5em;
-    }
+  .comp,
+  .lang,
+  .level,
+  .level1 {
+    font-size: xx-small;
+  }
 
-    .profileparagraph, .xpparagraph {
-        font-size: xx-small;
-    }
+  .square {
+    font-size: x-small;
+    margin-left: -2.5em;
+  }
 
-    .icone {
-        width: 15px;
-        height: 15px;
-    }
+  .profileparagraph,
+  .xpparagraph {
+    font-size: xx-small;
+  }
 
-    .maj {
-        font-size: xx-small;
-    }
+  .icone {
+    width: 15px;
+    height: 15px;
+  }
 
-    footer {
-        padding: 5px;
-    }
+  .maj {
+    font-size: xx-small;
+  }
+
+  footer {
+    padding: 5px;
+  }
 }
