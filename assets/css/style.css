@@ -71,9 +71,9 @@ header {
 
 figure {
   box-sizing: border-box;
-  width: 12%;
+  width: 20%;
   min-width: 100px;
-  height: 12%;
+  height: 20%;
   align-self: center;
 }
 
