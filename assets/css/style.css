@@ -75,6 +75,7 @@ figure {
   min-width: 100px;
   height: 20%;
   align-self: center;
+  aspect-ratio: 1 / 1;
 }
 
 .name {
