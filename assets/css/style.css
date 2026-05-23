@@ -234,6 +234,13 @@ a {
   color: black;
   cursor: pointer;
 }
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 /* MAIN fin */
 
 /* FOOTER début */
