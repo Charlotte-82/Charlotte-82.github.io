@@ -219,24 +219,22 @@ h2 {
 }
 
 .level,
-.level1,
 .lang {
   display: inline-block;
   margin-bottom: 5px;
   margin-top: 5px;
 }
 
-.level {
+/* .level {
   float: right;
-}
-
-.level1 {
-  float: right;
-  font-weight: 700;
-}
+} */
 
 .lang {
   font-weight: 700;
+}
+
+.sous-titre:hover {
+  color: #5e113e;
 }
 
 a {
