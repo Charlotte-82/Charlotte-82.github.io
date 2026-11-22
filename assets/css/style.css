@@ -17,6 +17,7 @@ html {
 
 p {
   color: #333333;
+  font-size: medium;
 }
 
 body {
@@ -103,8 +104,17 @@ figure {
   color: white;
 }
 
+.siteweb > a {
+  text-decoration: none;
+  color: white;
+}
+
 .contact {
   color: white;
+}
+
+.siteweb {
+  list-style-image: url(../images/globe.png);
 }
 
 .enveloppe {
